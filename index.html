@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratna's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7d75991c89.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#Services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+        <div class="header-text">
+            <p>Computer Science Engineer</p>
+            <h1>Hi, I'm <span>Ratna Tiwari</span><br>From India</h1>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a Computer Science Engineer Specializing in Data Science, with a keen interest in AI, machine learning, and real-time data processing. Skilled in python, c, cpp, Java, and TensorFlow, I am currently developing an AI-based traffic management system for Indian cities. I'm passionate about using technology to solve real-world problems and look forward to building scalable, efficient solutions that can drive smart urban environments.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Building Android/ios apps</li></ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                        <li><span>2024</span><br>UI/UX Designed projects(Ex:Gym management and Dietary Plan Suggestions,college management,etc)</li>
+                        <li><span>2024</span><br>Training AI models to work on chatbots</li>
+                        <li><span>2023</span><br>Developed many websites(candy shop,chatbot,etc) using django,html,css,js</li>
+                        <li><span>2021-2023</span><br>Inter-school coding competitions</li></ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - 2027<br>Bachelor of Technology in Computer Science(DS)</span><br>
+                                SRM Institute of Science and Technology, India
+                            </li>
+                            <li><span>2023 - 2024<br>Machine Learning</span><br>SRM Institute of Science and Technology, India
+                            </li>
+                            <li><span>2021 - 2023<br>High School</span><br>
+                                ADLS Sunshine School, India
+                            </li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--services-->
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p style="font-size: medium";>
+                "Crafting visually appealing, responsive websites tailored to your brand."
+I provide end-to-end web design solutions that focus on creating sleek, modern, and mobile-responsive websites. Each design is optimized for usability, ensuring an intuitive user journey and alignment with your brand identity.
+                            </p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p style="font-size: medium";>
+                Designing user-friendly interfaces with seamless experiences.My approach to UI/UX is user-centered, creating interfaces that are not only visually engaging but also easy to navigate.I prioritize user feedback and behavior insights to ensure that every design choice enhances the user experience.
+            </p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App Design</h2>
+            <p style="font-size: medium";>
+                Transforming ideas into high-quality, user-focused applications.
+                From wireframing to prototyping, I handle all stages of app design to build engaging, intuitive applications. Each project is a collaboration to ensure the design aligns with functionality, making every app both innovative and practical.
+                            </p>
+            <a href="#">Learn more</a>
+        </div>
+        </div>
+    </div>
+</div>
+<!-------portfolio------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>R&A GYM APP</h3>
+                    <p>The app that connects you transform yourself and takes care of your diet.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Candy Shop</h3>
+                    <p>This connects you to shop tasty and yum candies online which would ultimately satisfy your craving</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world.Download it for free from play store</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me
+                </h1>
+                <p><i class="fa-solid fa-paper-plane"></i>rt1969@srmist.edu.in</p>
+                <p><i class="fa-solid fa-square-phone"></i>8709472976</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/.ratan_tiwari./profilecard/?igsh=MXBjN2h0dHluZWo3Nw=="><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ratna-durgesh-tiwary-7692b5265/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/RatnaTiwari04"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://snapchat.com/t/s98GvNKt"><i class="fa-brands fa-square-snapchat"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copywright">
+        <p>Copywright Ratna, <i class="fa-regular fa-face-smile"></i>  SRM student. </p>
+    </div>
+</div>
+
+<script>
+
+  var tablinks=document.getElementsByClassName("tab-links");
+  var tabcontents=document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname){
+    for(tablink of tablinks)
+    {
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents)
+    {
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+  }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwHCl1OV_6uaXW_UtugC494n72O7G2LeDA1LThTuqiMS1dJOCt4OOiFEm7kiVKFA2KcOQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Message sent successfully"
+            setTimeout(function(){
+            msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
